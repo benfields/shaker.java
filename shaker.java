@@ -1,6 +1,4 @@
-package com.terld.benfields.android.shaker;
-
-// change to this your package name!!!
+package com.terld.benfields.android.shaker; // change to this your package name!!!
 
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -140,7 +138,7 @@ public class ShakeDetector implements SensorEventListener {
     /*
      * Definition for OnShakeListener definition. I would normally put this
      * into it's own .java file, but I included it here for quick reference
-     * and to make it easier to include this file in our project.
+     * and to make it easier to include this file in your project.
      */
     public interface OnShakeListener {
     	public void onShake();
